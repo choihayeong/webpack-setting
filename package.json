@@ -1,0 +1,30 @@
+{
+  "name": "webpack-setting",
+  "version": "1.0.0",
+  "description": "webpack template setting for projects",
+  "private": true,
+  "dependencies": {
+    "webpack-cli": "^5.1.1",
+    "webpack": "^5.82.1",
+    "webpack-dev-server": "^4.0.0-rc.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choihayeong/webpack-setting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/choihayeong/webpack-setting/issues"
+  },
+  "homepage": "https://github.com/choihayeong/webpack-setting#readme"
+}
